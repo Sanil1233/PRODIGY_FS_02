@@ -1,0 +1,22 @@
+<div class="container mt-5">
+  <h2 class="text-center">Add New Employee</h2>
+  <form method="POST" action="/employees/add">
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" class="form-control" id="name" name="name" placeholder="Enter employee name" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" class="form-control" id="email" name="email" placeholder="Enter employee email" required>
+    </div>
+    <div class="form-group">
+      <label for="position">Position</label>
+      <input type="text" class="form-control" id="position" name="position" placeholder="Enter employee position" required>
+    </div>
+    <div class="form-group">
+      <label for="salary">Salary</label>
+      <input type="number" class="form-control" id="salary" name="salary" placeholder="Enter employee salary" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Add Employee</button>
+  </form>
+</div>
